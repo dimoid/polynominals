@@ -1,0 +1,18 @@
+<html>
+    <body>
+        Number of Factors: <input type="input" id="factors" value="2"/>
+        Allow Coefficients:
+        <input type="radio" name="coefficients" value="true" >true
+        <input type="radio" name="coefficients" value="false" checked/>false<br>
+        Minimum Term Value: <input type="input" id="min" value="-10"/><br>
+        Maximum Term Value: <input type="input" id="max" value="10"/><br>
+        <button onclick="generate()">Generate</button> <label id="equation"></label>
+        <br>
+        <canvas id="graph" width="500" height="500"></canvas>
+        <br>
+        <button onclick="zoomin()">Zoom In</button>
+        <label id="scalefactor" visible="false">Scale Factor = 10^0</label>
+        <button onclick="zoomout()">Zoom Out</button>
+    </body>
+    <script src="polynomials.js"></script>
+</html>

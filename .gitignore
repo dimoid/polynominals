@@ -1,0 +1,50 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+#IntelliJ
+.idea/
+*.iml
+.env.development
+
+#Eclipse
+*.classpath
+.externalToolBuilders/
+.metadata/
+*.project
+.settings/
+bin/
+
+#Maven
+target/
+
+# JPA Buddy
+.jpb
+
+# dependencies
+node_modules/
+
+# testing
+coverage/
+
+# production
+build/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Prettier
+.browserslistrc
+.editorconfig
+.eslintignore
+.eslintrc-shared.js
+.huskyrc.js
+jest-shared.config.js
+lint-staged.config.js
+prettier.config.js
+tsconfig-shared.json
